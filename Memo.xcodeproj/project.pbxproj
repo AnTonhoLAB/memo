@@ -101,14 +101,9 @@
 		3F0B6ECF25F326EE00E78139 /* Memo */ = {
 			isa = PBXGroup;
 			children = (
-				3F0B6ED025F326EE00E78139 /* AppDelegate.swift */,
-				3F0B6ED225F326EE00E78139 /* SceneDelegate.swift */,
-				3F0B6ED425F326EE00E78139 /* ViewController.swift */,
-				3F0B6ED625F326EE00E78139 /* Main.storyboard */,
-				3F0B6EDC25F326F200E78139 /* Assets.xcassets */,
-				3F0B6EDE25F326F200E78139 /* LaunchScreen.storyboard */,
-				3F0B6EE125F326F200E78139 /* Info.plist */,
-				3F0B6ED925F326EE00E78139 /* Memo.xcdatamodeld */,
+				3F0B6F0425F329EC00E78139 /* Foundation */,
+				3F0B6F0525F32B0000E78139 /* Storage */,
+				3F0B6F0325F327CF00E78139 /* Scene */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -129,6 +124,36 @@
 				3F0B6EF725F326F200E78139 /* Info.plist */,
 			);
 			path = MemoUITests;
+			sourceTree = "<group>";
+		};
+		3F0B6F0325F327CF00E78139 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B6ED625F326EE00E78139 /* Main.storyboard */,
+				3F0B6ED425F326EE00E78139 /* ViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		3F0B6F0425F329EC00E78139 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B6ED025F326EE00E78139 /* AppDelegate.swift */,
+				3F0B6ED225F326EE00E78139 /* SceneDelegate.swift */,
+				3F0B6EE125F326F200E78139 /* Info.plist */,
+				3F0B6EDC25F326F200E78139 /* Assets.xcassets */,
+				3F0B6EDE25F326F200E78139 /* LaunchScreen.storyboard */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		3F0B6F0525F32B0000E78139 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B6ED925F326EE00E78139 /* Memo.xcdatamodeld */,
+			);
+			name = Storage;
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
